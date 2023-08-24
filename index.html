@@ -3,51 +3,86 @@
     <head>
         <meta charset="utf-8">
         <title>Web site Zangetsu</title>
-    </head>
+        <link rel="stylesheet" href="../Z51-Project/style.css">
+    </head> </html>
     <body>
         <!-- Menu -->
-        <p>Ordinateur</p>
-            <a href="../Z51-Project/Ordinateur/pc.html">Mon PC</a>
-        <p>Mes loisirs</p>
-            <a href="">Airsoft</a>
-            <a href="https://www.facebook.com/zangetsu51">Mon facebook</a>
-        <p>Site Stripa</p>
-            <a href="https://stripa.xooit.fr/">Forum</a>
-            <a href="https://stripa.xooit.fr/">Site war</a>
-        <p>Jeux vidéo</p>
-        <a href="../Z51-Project/index.html#">World of Warcraft</a>
-        <a href="../Z51-Project/index.html#">League of Legends</a>
-        <a href="../Z51-Project/index.html#">Arabasta-Chronibles</a>
-        <a href="../Z51-Project/index.html#">Counter-Strike : Source</a>
-        <a href="../Z51-Project/index.html#">Lrose</a>
-    <p>Mangas</p>
-        <a href="../Z51-Project/index.html#">Bleach</a>
-        <a href="../Z51-Project/index.html#">Naruto</a>
-        <a href="../Z51-Project/index.html#">Naruto Shippuden</a>
-    <p>Musiques</p>
-        <a href="../Z51-Project/index.html#">Zangetsu</a>
-        <a href="../Z51-Project/index.html#">Shadow</a>
-        <a href="../Z51-Project/index.html#">Nk-snip</a>
-    <p>Images</p>
-        <a href="../Z51-Project/index.html#">éclair</a>
-        <a href="../Z51-Project/index.html#">éclair</a>
-        <a href="../Z51-Project/index.html#">éclair</a>
-    <p>Ancien site</p>
-        <a href="../Z51-Project/index.html#">Site</a>
+        <div class="navbar">
+            <nav>
+                <ul class="ul-menu">
+                    <li class="menu"><a href="#">Ordinateur</a>
+                        <ul class="ul_sous_menu">
+                            <li class="li_sous_menu"><a href="../Z51-Project/Ordinateur/pc.html">Mon PC</a></li>  
+                        </ul> 
+                    </li>
+                    <li class="menu"><a href="#">Mes loisirs</a>
+                        <ul class="ul_sous_menu">
+                            <li class="li_sous_menu"><a href="">Airsoft</a></li>
+                            <li class="li_sous_menu"><a href="https://www.facebook.com/zangetsu51">Mon facebook</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="#">Site Stripa</a>
+                        <ul class="ul_sous_menu">
+                            <li class="li_sous_menu"><a href="https://stripa.xooit.fr/">Forum</a></li>
+                            <li class="li_sous_menu"><a href="https://stripa.xooit.fr/">Site war</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="#">Jeux vidéo</a>
+                        <ul class="ul_sous_menu">
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">World of Warcraft</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">League of Legends</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Arabasta-Chronibles</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Counter-Strike : Source</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Lrose</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="#">Mangas</a>
+                        <ul class="ul_sous_menu">
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Bleach</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Naruto</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Naruto Shippuden</a></li>
+                        </ul> 
+                    </li>  
+                    <li class="menu"><a href="#">Musiques</a>
+                        <ul class="ul_sous_menu">
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Zangetsu</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Shadow</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Nk-snip</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="#">Images</a>
+                        <ul class="ul_sous_menu">
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">éclair</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">éclair</a></li>
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">éclair</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="#">Ancien site</a>
+                        <ul class="ul_sous_menu">
+                            <li class="li_sous_menu"><a href="../Z51-Project/index.html#">Site</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <!-- Contenu de la page -->
-        <h1>Test</h1>
-        <img src="http://zangetsu51.free.fr/image/corp.jpg" title="Vous croyez que c'est le monsieur qui l'a fait ? je sais pas il a mis 'by zangetsu'" alt="image d'un tigre en noir et blanc qui boit"/>
-        
-        <SCRIPT LANGUAGE="JavaScript">
-            var maintenant=new Date();
-            var jour=maintenant.getDate();
-            var mois=maintenant.getMonth()+1;
-            var an=maintenant.getFullYear();
-            var heure=maintenant.getHours();
-            var minutes=maintenant.getMinutes();
-            document.write("Bonjour ! Nous sommes le ",jour,"/",mois,"/",an," et il est " ,heure, "h",minutes);
-        </SCRIPT>
-
-        <p>x visite (faudrait une base de données non ?)</p>
+        <div class="contenu">
+            <p class="texte-inutile">Test</p>
+            <img src="http://zangetsu51.free.fr/image/corp.jpg" id="img-tiger" title="Vous croyez que c'est le monsieur qui l'a fait ? je sais pas il a mis 'by zangetsu'" alt="image d'un tigre en noir et blanc qui boit"/>
+        </div>
+        <footer>
+            <div class="footer">
+                <SCRIPT LANGUAGE="JavaScript">
+                    var maintenant=new Date();
+                    var jour=maintenant.getDate();
+                    var mois=maintenant.getMonth()+1;
+                    var an=maintenant.getFullYear();
+                    var heure=maintenant.getHours();
+                    var minutes=maintenant.getMinutes();
+                    document.write("Bonjour ! Nous sommes le ",jour,"/",mois,"/",an," et il est " ,heure, "h",minutes);
+                </SCRIPT>
+                 <p class="visite"><span class="nb_visite">x</span> visites (faudrait une base de données non ?)</p>
+            </div>
+         </footer>
     </body>
 </html>
