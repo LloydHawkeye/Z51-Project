@@ -8,6 +8,10 @@ body {
 
 .contenu {
     text-align: center;
+    background: url(http://zangetsu51.free.fr/image/corp.jpg);
+    width: 1024px;
+    margin: auto;
+    height: 768px;
 }
 
 .texte-inutile {
@@ -27,6 +31,7 @@ body {
     width: 1024px;
     margin: auto;
     padding: 1.5em 0px;
+    margin-top: 15px;
 }
 
 .nb_visite {
@@ -105,4 +110,17 @@ a {
 #img-m4a1 {
     width: 200px;
     height: 150px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-family:Verdana, Geneva, sans-serif;
+    font-style: italic;
+    background-color: white;
+    margin: 0px;
+    padding: 15px;
 }
