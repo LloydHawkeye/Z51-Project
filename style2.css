@@ -103,11 +103,7 @@ a {
     background-color: dodgerblue;
 }
 
-#img-tiger {
-    margin-top: -31px;
-}
-
-#img-m4a1 {
+.contenu img {
     width: 200px;
     height: 150px;
 }
