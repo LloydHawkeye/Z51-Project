@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url(http://zangetsu51.free.fr/image/fond-ecrain1.jpg);
+    background-image: url(Images/fond-ecrain1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body {
 
 .contenu {
     text-align: center;
-    background: url(http://zangetsu51.free.fr/image/corp.jpg);
+    background: url(Images/corp.jpg);
     width: 1024px;
     margin: auto;
     height: 768px;
