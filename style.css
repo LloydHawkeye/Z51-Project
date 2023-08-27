@@ -6,8 +6,18 @@ body {
     background-repeat: no-repeat;
 }
 
+.entete {
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 16px 0px;
+}
 .contenu {
     text-align: center;
+    background: url(Images/corp.jpg);
+    width: 1024px;
+    margin: auto;
+    height: 768px;
 }
 
 .texte-inutile {
@@ -27,6 +37,7 @@ body {
     width: 1024px;
     margin: auto;
     padding: 1.5em 0px;
+    margin-top: 15px;
 }
 
 .nb_visite {
@@ -47,7 +58,7 @@ body {
 }
 
 .navbar {
-    padding-top: 111px;
+    padding-top: 30px;
     width: 1024px;
     margin: auto;
 }
@@ -98,11 +109,20 @@ a {
     background-color: dodgerblue;
 }
 
-#img-tiger {
-    margin-top: -31px;
-}
-
-#img-m4a1 {
+.contenu img {
     width: 200px;
     height: 150px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-family:Verdana, Geneva, sans-serif;
+    font-style: italic;
+    background-color: white;
+    margin: 0px;
+    padding: 15px;
 }
