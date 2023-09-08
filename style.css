@@ -12,6 +12,67 @@ body {
     margin: auto;
     padding: 16px 0px;
 }
+
+.navbar__sous_menu {
+    display: none;
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 0px 12px 0px 1px;
+    width: 15.9em;
+    background-color: blue;
+}
+
+.navbar {
+    padding-top: 30px;
+    width: 1024px;
+    margin: auto;
+}
+
+.navbar__menu {
+    list-style-type: none;
+    display: flex;
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+    width: 1024px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar__titre-niv1 a {    
+    background-color: black;
+    margin: 1px;
+    padding: 5px 10px 5px 10px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+a {
+    color: white;
+  }
+
+
+.navbar__titre-niv1 a:hover {
+    background-color: dodgerblue;
+}
+
+.navbar__titre-niv1:hover .navbar__sous_menu {
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+
+.navbar__titre-niv2 {
+    background-color: black;
+    margin: 3px 1px;
+    padding: 4px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    width: 100%;
+}
+.navbar__titre-niv2:hover {
+    background-color: dodgerblue;
+}
 .contenu {
     text-align: center;
     background: url(Images/corp.jpg);
@@ -30,6 +91,11 @@ body {
     margin-top: 60px;
 }
 
+.contenu img {
+    width: 200px;
+    height: 150px;
+}
+
 .footer {
     text-align: center;
     color: red;
@@ -46,72 +112,6 @@ body {
 
 .visite{
     margin: 0px;
-}
-
-.ul_sous_menu {
-    display: none;
-    list-style-type: none;
-    margin: 0px 0px;
-    padding: 0px 12px 0px 1px;
-    width: 15.9em;
-    background-color: blue;
-}
-
-.navbar {
-    padding-top: 30px;
-    width: 1024px;
-    margin: auto;
-}
-
-.ul-menu {
-    list-style-type: none;
-    display: flex;
-    background-color: blue;
-    margin: 0px;
-    padding: 0px;
-    width: 1024px;
-    position: relative;
-    z-index: 10;
-}
-
-.menu a {    
-    background-color: black;
-    margin: 1px;
-    padding: 5px 10px 5px 10px;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    display: block;
-    text-align: center;
-}
-
-a {
-    color: white;
-  }
-
-
-.menu a:hover {
-    background-color: dodgerblue;
-}
-
-.menu:hover .ul_sous_menu {
-    display: block;
-    position: absolute;
-    z-index: 100;
-}
-
-.li_sous_menu {
-    background-color: black;
-    margin: 3px 1px;
-    padding: 4px;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    width: 100%;
-}
-.li_sous_menu:hover {
-    background-color: dodgerblue;
-}
-
-.contenu img {
-    width: 200px;
-    height: 150px;
 }
 
 p {
