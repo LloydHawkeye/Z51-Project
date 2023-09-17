@@ -85,7 +85,14 @@ Pour retourner à ma homepage cliquer sur le lien suivant : <a href="https://llo
                     var an=maintenant.getFullYear();
                     var heure=maintenant.getHours();
                     var minutes=maintenant.getMinutes();
+                    minutes = checkTime(minutes);
+                    heure = checkTime(heure)
+                    mois = checkTime(mois)
                     document.write("Bonjour ! Nous sommes le ",jour,"/",mois,"/",an," et il est " ,heure, "h",minutes);
+                    function checkTime(i) {
+                        if (i < 10) {i = "0" + i};
+                        return i;
+                        }
                 </SCRIPT>
                  <p class="visite"><span class="nb_visite">x</span> visites (faudrait une base de données non ?)</p>
             </div>
