@@ -46,6 +46,8 @@ body {
     font-family: Verdana, Geneva, Arial, sans-serif;
     display: block;
     text-align: center;
+    font-style: normal;
+    text-decoration: none;
 }
 
 a {
