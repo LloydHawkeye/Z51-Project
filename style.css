@@ -80,7 +80,8 @@ a {
     background: url(Images/corp.jpg);
     width: 1024px;
     margin: auto;
-    height: 768px;
+    height: 715px;
+    background-size: 1024px 715px;
 }
 
 .texte-inutile {
