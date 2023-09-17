@@ -50,6 +50,10 @@ body {
     text-decoration: none;
 }
 
+.navbar__titre-niv1 {
+    padding-right: 1px;
+}
+
 a {
     color: white;
   }
