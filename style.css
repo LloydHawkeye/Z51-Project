@@ -133,3 +133,14 @@ h2 {
     margin: 0px;
     padding: 15px;
 }
+
+.the-question, #the-question {
+    margin: 0px;
+    padding: 0px;
+    width: 278px;
+    height: 86px;
+}
+
+.the-question {
+    padding: 629px 0px 0px 746px;
+}
